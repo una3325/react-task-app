@@ -39,7 +39,7 @@ const BoardList: FC<TBoardListProps> = ({
       {boardArray.map((board, index) => (
         <div
           key={board.boardId}
-          onClick={() => setActiveBoardId(boardArray)[index].boardId}
+          onClick={() => setActiveBoardId(boardArray[index].boardId)}
           className={clsx(
             {
               [boardItemActive]:

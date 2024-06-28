@@ -51,6 +51,7 @@ const SideForm: FC<TSideFormProps> = ({ setIsFormOpen, inputRef }) => {
     <div className={sideForm}>
       <input
         // ref={inputRef}
+        className={input}
         autoFocus
         type="text"
         placeholder="새로운 게시판 등록하기"
