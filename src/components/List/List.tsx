@@ -3,7 +3,7 @@ import { GrSubtract } from 'react-icons/gr';
 import Task from '../Task/Task';
 import ActionButton from '../ActionButton/ActionButton';
 import { useTypedDispatch } from '../../hooks/redux';
-import { deleteList } from '../../store/slices/boardsSlice';
+import { deleteList, setModalActive } from '../../store/slices/boardsSlice';
 import { addLog } from '../../store/slices/loggerSlice';
 import { IList, ITask } from '../../types';
 import { v4 } from 'uuid';
@@ -37,7 +37,7 @@ const List: FC<TListProps> = ({ list, boardId }) => {
     task: ITask
   ) => {
     dispatch(setModalData({ boardId, listId, task }));
-    dispatch(setModalData(true));
+    dispatch(setModalActive(true));
   };
 
   return (

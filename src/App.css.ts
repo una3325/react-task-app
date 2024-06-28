@@ -14,8 +14,8 @@ export const vars = createGlobalTheme(':root', {
     secondaryDarkText: 'rgb(94,108,132)',
     secondaryDarkTextHover: 'rgb(218,219,226)',
     selectedTab: '#708090',
-    updateButton: '#5F9EA0',
-    deleteButton: '#8B0000',
+    updateButton: '#B0C4DE',
+    deleteButton: '#FF4500',
   },
 
   fontSizeing: {
