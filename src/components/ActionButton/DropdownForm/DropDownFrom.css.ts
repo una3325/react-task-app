@@ -39,8 +39,9 @@ export const button = style({
   width: 150,
   color: vars.color.brightText,
   padding: vars.spacing.medium,
-  fontSize: vars.fontSizeing.T3,
+  fontSize: vars.fontSizeing.T4,
   backgroundColor: vars.color.mainDarker,
+  borderRadius: 5,
   border: 'none',
   cursor: 'pointer',
   ':hover': {
