@@ -6,7 +6,7 @@ import { listsContainer } from './ListsContainer.css';
 
 type TListsContainerProps = {
   boardId: string;
-  lists: IList;
+  lists: IList[];
 };
 
 const ListsContainer: FC<TListsContainerProps> = ({ lists, boardId }) => {
